@@ -1,5 +1,17 @@
+import java.util.Scanner;
+
 public class Principal {
     public static void main(String[] args) {
-        
+        Scanner lectura = new Scanner(System.in);
+        ConsultaMoneda consulta = new ConsultaMoneda();
+
+        String menu = """
+                **************** ¡Bienvenido al conversor de divisas! ****************
+                Elige una opción válida:
+                
+
+                ******************************************************************
+                """;
+
     }
 }
